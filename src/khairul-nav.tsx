@@ -14,3 +14,5 @@ const lifecycles = singleSpaReact({
 });
 
 export const { bootstrap, mount, unmount } = lifecycles;
+
+export * as Button from './components/Button'
